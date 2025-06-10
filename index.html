@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ProLearn| E-Learning Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>ProLearn</h1>
+  <p>Your Professional E-Learning Companion</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#" onclick="showPage('home')">Home</a></li>
+    <li><a href="#" onclick="showPage('courses')">Courses</a></li>
+    <li><a href="#" onclick="showPage('progress')">Progress</a></li>
+    <li><a href="#" onclick="showPage('video')">Video</a></li>
+  </ul>
+</nav>
+
+<main>
+  <section id="home" class="page active">
+    <h2>Welcome to ProLearn</h2>
+    <p>Boost your skills with expert-led video courses. Track your progress and stay motivated.</p>
+    <button onclick="showPage('courses')">Explore Courses</button>
+  </section>
+
+  <section id="courses" class="page">
+    <h2>Available Courses</h2>
+    <div class="course-grid">
+      <div class="course-card">
+        <h3>HTML & CSS Basics</h3>
+        <p>Learn to build beautiful web pages with HTML5 and CSS3.</p>
+      </div>
+      <div class="course-card">
+        <h3>JavaScript Essentials</h3>
+        <p>Understand core JavaScript concepts and DOM manipulation.</p>
+      </div>
+      <div class="course-card">
+        <h3>Responsive Web Design</h3>
+        <p>Design mobile-friendly, responsive layouts using Flexbox and Grid.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="progress" class="page">
+    <h2>My Progress</h2>
+    <div class="progress-item">
+      <span>HTML & CSS Basics</span>
+      <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+    </div>
+    <div class="progress-item">
+      <span>JavaScript Essentials</span>
+      <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
+    </div>
+  </section>
+
+  <section id="video" class="page">
+    <h2>Watch & Learn</h2>
+    <p>Enhance your learning with curated video tutorials.</p>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/UB1O30fR-EE" allowfullscreen></iframe>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 ProLearn. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
