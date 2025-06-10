@@ -13,7 +13,10 @@ Progress is visually represented through animated progress bars.
 Video content is embedded directly for interactive learning.
 The layout is clean, mobile-friendly, and easy to navigate.
 OUTPUT:
-
+![Image](https://github.com/user-attachments/assets/fc748166-0310-4783-ad21-bd31b6b97954)
+![Image](https://github.com/user-attachments/assets/b49dfac5-2415-4dce-9768-b2e10cf592e3)
+![Image](https://github.com/user-attachments/assets/ee95ddec-d407-4304-8405-1af55da0ed06)
+![Image](https://github.com/user-attachments/assets/d8ca3bdf-1e6f-44ec-b004-5b10bc4b6207)
 
 
 
